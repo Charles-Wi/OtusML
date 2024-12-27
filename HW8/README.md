@@ -7,6 +7,8 @@ Otus ML Pro 2024: Домашняя работа — Почувствуй мощ�
 3. Fine-tune RuT5 [3.RuT5.ipynb](3.RuT5.ipynb)
 4. Выводы [4.Recap.ipynb](4.Recap.ipynb)
 
+Мы использовали набор данных [RuCola](https://github.com/RussianNLP/RuCoLA)
+
 Ссылки на использованные модели:
 - [ai-forever/ruBert-base](https://huggingface.co/ai-forever/ruBert-base/tree/main)
 - [ai-forever/rugpt3large_based_on_gpt2](https://huggingface.co/ai-forever/rugpt3large_based_on_gpt2/tree/main)
