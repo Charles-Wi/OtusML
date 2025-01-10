@@ -22,7 +22,8 @@ Otus ML Pro 2024 — Проектная работа
 
 *Модель 0*: была попытка использовать Naive Bayes модель: неудачно, результат низкий. <a href="3.1. Тренировка модели\TestResultsWithnaiveBayesOnRStudio.png">"3.1. Тренировка модели\TestResultsWithnaiveBayesOnRStudio.png"</a>
 
-*Модель 1*: RandomForest [baseline модель](Baseline model.pdf) (результат хороший).
+*Модель 1*: RandomForest <a href="Baseline model.pdf">baseline модель</a> (результат хороший).
+
 3.1. Тренировка модели. Для тренировки использованы файлы: shares_detector_train.csv, shares_detector_test.csv, importantWords.csv, stopWords.txt и файлы из подкаталога "3.1. Тренировка модели".
 
 Список стоп-слов можно использовать двояко:
