@@ -24,7 +24,7 @@ Otus ML Pro 2024 — Проектная работа
 
 *Модель 1*: RandomForest <a href="Baseline model.pdf">baseline модель.pdf</a> (результат хороший).
 
-Модель 1А: тренирована на shares_detector_train.csv, shares_detector_test. Точный набор данных при тренировке первых моделей не сохранил (файл затерся новыми обновлениями), но приблизительно воспроизвел.
+Модель 1А: тренирована на shares_detector_train.csv, shares_detector_test. Точный набор данных при тренировке первых моделей не сохранил (файл затерся новыми обновлениями), но приблизительно воспроизвел.<br />
 Результат: Cohen's Kappa Test: 0.615, AUC-ROC: 0.999. "3.1. Тренировка модели\TestResultsOnRStudio.png".
 Пример запроса и ответа находится в подкаталоге "3.2. Docker app\Test Inference".
 
