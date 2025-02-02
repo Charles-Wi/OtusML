@@ -53,13 +53,16 @@ Otus ML Pro 2024 — Проектная работа
 - Cohen's Kappa Train: 0.969, Test: 1, AUC-ROC: 1 (значительного улучшения не получено, чуть «прямее» выглядит график AUC-ROC, но это на пределе точности измерения). "3.1. Тренировка модели\TestResultsWithCrossValidationOnRStudio.png",
 "3.1. Тренировка модели\TrainDetectorWithCrossValidation.R".
 - dtm_df_columns.csv — содержит сохраненный, по результатам тренировки, набор колонок Document-Term-Matrix, чтобы при inference воспроизвести структуру матрицы (как было при обучении).
-- `20250109model_R4.3.3_randomForest4.7-1.1` — сериализованная обученная модель
+- `20250109model_R4.3.3_randomForest4.7-1.1.RData` — сериализованная обученная модель
 
 Метод тренировки с кросс-валидацией был взят из статьи: https://rstudio-pubs-static.s3.amazonaws.com/868139_8b884a6b86fa4081981d2efe5218f6f6.html
 
-*Модель 3*: градиентный бустинг (Catboost) <a href=".\3.2. Docker app\Test Inference (catboost)">исходный текст микросервиса для infer и результаты</a> <a href=".\3.1. Тренировка модели\TrainDetectorWithCatboost.R">исходный текст скрипта для тренировки модели TrainDetectorWithCatboost.R</a>
-
-<a href=".\3.1. Тренировка модели\TestResults(catboost)OnRStudio.png">Скриншот с метриками.</a>
+*Модель 3*: градиентный бустинг (Catboost) <a href=".\3.2. Docker app\Test Inference (catboost)">исходный текст микросервиса для infer и результаты</a><br />
+Результат:
+- Cohen's Kappa Train: 0.828, Test: 1, AUC-ROC: 0.999.  <a href=".\3.1. Тренировка модели\TestResults(catboost)OnRStudio.png">Скриншот с метриками: TestResults(catboost)OnRStudio.png.</a> ,
+"3.1. Тренировка модели\TrainDetectorWithCatboost.R".
+- "3.2. Docker app\Test Inference (catboost)\dtm_df_columns.csv" — содержит сохраненный, по результатам тренировки, набор колонок Document-Term-Matrix, чтобы при inference воспроизвести структуру матрицы (как было при обучении).
+- `20250202model_R4.3.3_catboost-R-windows-x86_64-1.2.7.RData` — сериализованная обученная модель
 
 Подробнее user cases при использовании моделей описаны в презентации: <a href="User cases при использовании моделей.pdf">User cases при использовании моделей.pdf</a>
 
