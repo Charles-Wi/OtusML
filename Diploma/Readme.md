@@ -60,7 +60,7 @@ Otus ML Pro 2024 — Проектная работа
 *Модель 3*: градиентный бустинг (Catboost) <a href=".\3.2. Docker app\Test Inference (catboost)">исходный текст микросервиса для infer и результаты</a><br />
 Результат:
 - Cohen's Kappa Train: 0.828, Test: 1, AUC-ROC: 0.999.  <a href=".\3.1. Тренировка модели\TestResults(catboost)OnRStudio.png">Скриншот с метриками: TestResults(catboost)OnRStudio.png.</a> ,
-"3.1. Тренировка модели\TrainDetectorWithCatboost.R".
+<a href="3.1. Тренировка модели\TrainDetectorWithCatboost.R">3.1. Тренировка модели\TrainDetectorWithCatboost.R</a>.
 - "3.2. Docker app\Test Inference (catboost)\dtm_df_columns.csv" — содержит сохраненный, по результатам тренировки, набор колонок Document-Term-Matrix, чтобы при inference воспроизвести структуру матрицы (как было при обучении).
 - `20250202model_R4.3.3_catboost-R-windows-x86_64-1.2.7.RData` — сериализованная обученная модель
 
