@@ -1,0 +1,31 @@
+[project]
+name = "ts-try2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<3.13.0"
+dependencies = [
+    "etna[all] (>=3.0.0,<4.0.0)",
+    "statsmodels (>=0.14.4,<0.15.0)",
+    "pandas (>=2.3.0,<3.0.0)",
+    "scikit-learn (>=1.7.0,<2.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pycodestyle (>=2.14.0,<3.0.0)",
+    "pycodestyle-magic (>=0.5,<0.6)",
+    "nbqa (>=1.9.1,<2.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "isort (>=6.0.1,<7.0.0)",
+]
+
+[tool.poetry]
+packages = [{include = "ts_try2", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

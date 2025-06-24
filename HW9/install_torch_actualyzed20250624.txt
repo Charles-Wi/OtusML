@@ -1,0 +1,10 @@
+Как установить pytorch cuda в poetry окружении
+==============================================
+
+0. Включить сохранение .env в директории окружения, если это не сделано ранее:
+poetry config virtualenvs.in-project true
+1. После установки всего через poetry удаляем torch (который непонятно какой без gpu поддержки):
+.\.venv\scripts\pip3 uninstall torch torchvision torchaudio
+2. Install torch with gpu support:
+.\.venv\Scripts\pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+
